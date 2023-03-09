@@ -1,0 +1,40 @@
+{
+  "name": "PizzaNotes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pprzybyla777/PizzaNotes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pprzybyla777/PizzaNotes/issues"
+  },
+  "homepage": "https://github.com/pprzybyla777/PizzaNotes#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-rate-limit": "^6.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.9.0",
+    "mongoose-sequence": "^5.3.1",
+    "mongoose-timestamp": "^0.6.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

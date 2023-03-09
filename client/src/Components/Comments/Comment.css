@@ -1,0 +1,66 @@
+section.comment-section {
+  width: var(--smallWidth);
+  max-width: var(--maxWidth);
+  margin: 2rem auto;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.comment-section h2 {
+  margin-bottom: 1em;
+}
+
+.pizza-comment {
+  background-color: var(--mainWhite);
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 0;
+  border-radius: 10px;
+}
+
+.pizza-comment h4, .pizza-comment h3 {
+  margin-bottom: unset;
+  letter-spacing: 2px;
+}
+
+.title {
+  grid-column: span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.096);
+  /* background-color: green; */
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  padding: 1em;
+}
+
+.bio img {
+  border-radius: 50%;
+  width: 50%;
+}
+
+.comment-content {
+/* background-color: orange; */
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.comment-message {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
